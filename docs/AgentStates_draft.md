@@ -1,4 +1,5 @@
 State Definitions
+
 State: DISCOVERY
 Description: Continuous monitoring of Health Authority (HA) sources (FDA, EMA, MHRA).
 Actions: * Poll URL endpoints and RSS feeds.
@@ -36,4 +37,5 @@ State: ACTION_TRACKING
 Description: Post-alert monitoring.
 Actions: * Monitor status of initiated workflows.
 Collect user feedback on alert accuracy.
+
 Transition: Reset to DISCOVERY after logging metrics.
